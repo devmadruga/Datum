@@ -64,27 +64,9 @@ Por fim, vocês encontrarão nos .ipynb da camada gold, um pouco mais de tratame
 O job retorna erro no [KaggleAutenticacao_IngestaoDados.ipynb](./bronze/KaggleAutenticacao_IngestaoDados.ipynb) quando já tivermos os arquivos .csv no dbfs **E** estivermos com o dataset atualizado em relação ao kaggle.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![Run failed](auxiliares/job_falha.png)
+![Exception](auxiliares/exception.png)
+![Exception e Print](auxiliares/exception_print.png)
 
 
 
