@@ -25,5 +25,9 @@ Basicamente,
 
 * já se o **dataset sofreu atualização no kaggle** ou se "existem arquivos faltantes na camada bronze do dbfs**, o job é executado por completo.
 
-Uma notificação é enviada por email caso o job rode por completo. O normal, aqui, é não executar essa pipeline completa, já que o dataset sofre poucas atualizações.
+Uma notificação é enviada por email caso o job rode por completo. O normal, aqui, é não executar essa pipeline completa, já que o dataset sofre poucas atualizações. Trigger, notificação e as tasks do workflow:
+
+![Schedule e Job Notiication](auxiliares/databricks_schedule_jobnotifications.png)
+
+![Workflow tasks](auxiliares/databricks_workflow_tasks.png)
 
