@@ -21,7 +21,7 @@ Nesta camada, um arquivo .ipynb que:
 3. Faz o check dos arquivos na camada bronze no dbfs.
 
 Basicamente, 
-* se o **dataset não consta atualização** e já **estamos com os arquivos .csvs no dbfs (camada bronze)**, o job falha e as camadas silver e gold não são processada.
+* se o **dataset não consta atualização** e já **estamos com os arquivos .csv no dbfs (camada bronze)**, o job falha e as camadas silver e gold não são processada.
 
 * já se o **dataset sofreu atualização no kaggle** ou se "existem arquivos faltantes na camada bronze do dbfs**, o job é executado por completo.
 
@@ -31,3 +31,10 @@ Uma notificação é enviada por email caso o job rode por completo. O normal, a
 
 ![Workflow tasks](auxiliares/databricks_workflow_tasks.png)
 
+## 3. Camada Silver
+[Arquivos da camada silver](./silver)
+
+Na camada silver eu crio dataframes a partir dos dados .csv da camada bronze. Em seguida, defino schema, faço transformações básicas (como a que vocês pediram -> adição de colunas calculadas) e exporto os datos em delta para a camada silver. Todos os notebooks da camada silver seguem esta lógica.
+
+## 4. Camada Gold
+[Arquivos da camada gold](./gold)
