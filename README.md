@@ -8,13 +8,9 @@ Neste repositório vocês encontrarão informações a respeito do meu teste té
 
 Para realizar o teste técnico, escolhi o [Brazilian E-Commerce Public Dataset by Olist]([https://www.exemplo.com](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce).
 
-Um diagrama resumido do dataset:
+Diagrama fornecido:
 
-
-
-
-
-![Descrição da imagem](auxiliares/imagem.jpg)
+![Descrição da imagem](auxiliares/er_kaggle.png)
 
 
 
