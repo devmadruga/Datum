@@ -49,7 +49,7 @@ Antes de implementar a camada gold, defini 5 informações que eu gostaria de ob
 4. Total de vendas (R$) por mês e por dia.
 5. Um estudo sobre a diferença na data de entrega real e a data de entrega prevista pelo algoritmo da Olist.
 
-`Observação: Tantas outras informações importantes para o negócio poderiam ser obtidas deste dataset. ` 
+`Observação:` Tantas outras informações importantes para o negócio poderiam ser obtidas deste dataset.
 
 Então, com os objetivos definidos, os notebooks da camada gold seguem a lógica:
 
@@ -126,7 +126,4 @@ ORDER BY freq DESC;
 
 Depois de ter configurado as visualizações, embora elas sejam bastante limitadas no Dashboards do Databricks, o .pdf exportado pode ser visto [AQUI](auxiliares/DashboardsDatabricks.pdf). Vale a nota de que, enquanto o gráfico de bolhas (3 colunas) faz sentido, aqui no arquivo exportado não faz. :disappointed_relieved:
 
-`Observação: O export em .pdf não fica nada bom. Eu fiz um vídeo mostrando o projeto no meu ambiente do Databricks. Enviei o vídeo por email para a Jackeline, mas [AQUI ESTÁ O LINK PARA O VÍDEO](https://drive.google.com/file/d/1iamKGzTbAsGNe4pQZNRBzzxJa7vH1qWi/view?usp=sharing).`
-
-
-[AQUI ESTÁ O LINK PARA O VÍDEO](https://drive.google.com/file/d/1iamKGzTbAsGNe4pQZNRBzzxJa7vH1qWi/view?usp=sharing)
+`Observação:` O export em .pdf não fica nada bom. Eu fiz um vídeo mostrando o projeto no meu ambiente do Databricks. Enviei o vídeo por email para a Jackeline, mas [AQUI ESTÁ O LINK PARA O VÍDEO](https://drive.google.com/file/d/1iamKGzTbAsGNe4pQZNRBzzxJa7vH1qWi/view?usp=sharing).
