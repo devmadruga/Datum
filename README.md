@@ -34,7 +34,21 @@ Uma notificação é enviada por email caso o job rode por completo. O normal, a
 ## 3. Camada Silver
 [Arquivos da camada silver](./silver)
 
-Na camada silver eu crio dataframes a partir dos dados .csv da camada bronze. Em seguida, defino schema, faço transformações básicas (como a que vocês pediram -> adição de colunas calculadas) e exporto os datos em delta para a camada silver. Todos os notebooks da camada silver seguem esta lógica.
+Na camada silver eu crio dataframes a partir dos dados .csv da camada bronze. 
+
+Então, defino schema, faço transformações básicas (como a que vocês pediram -> adição de colunas calculadas) e exporto os dados em delta para a camada silver. Todos os notebooks da camada silver seguem esta lógica.
 
 ## 4. Camada Gold
 [Arquivos da camada gold](./gold)
+
+Antes de implementar a camada gold, defini 5 informações que eu gostaria de obter do dataset. São elas:
+
+1. Uma lista dos produtos comprados aos pares e a quantidade de vezes que isto acontece.
+2. Total de vendas (R$) para cada forma de pagamento.
+3. Total de vendas (R$) por Estado.
+4. Total de vendas (R$) por mês e por dia.
+5. Um estudo sobre a diferença na data de entrega real e a data de entrega prevista pelo algoritmo da Olist.
+
+`Observação: Tantas outras informações importantes para o negócio poderiam ser obtidas deste dataset. ` 
+
+
