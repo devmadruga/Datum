@@ -51,4 +51,41 @@ Antes de implementar a camada gold, defini 5 informações que eu gostaria de ob
 
 `Observação: Tantas outras informações importantes para o negócio poderiam ser obtidas deste dataset. ` 
 
+Então, com os objetivos definidos, os notebooks da camada gold seguem a lógica:
+
+importamos os dados da camada silver -> fazemos os tratamentos necessários (valores nulos ou vazios, adicioarmos colunas calculadas, agregações, somas, counts, joins e etc) -> exportamos os dados pertinentes no formato delta para a camada gold -> criamos uma DELTA TABLE com os dados pertinentes
+
+Um objetivo aqui na camada gold é o de entregar o dado mais pronto possível para análise, para que não tenhamos tratamentos de dados em ferramentas de BI ou mesmo aqui no databricks dentro das sql queries do sql warehouse.
+
+Por fim, vocês encontrarão nos .ipynb da camada gold, um pouco mais de tratamento de dados e manipulação dos dados. Porém, ainda são tratamentos de um dataset do kaggle. "A realidade lá fora é bastante mais dura do que no kaggle." :grin:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
