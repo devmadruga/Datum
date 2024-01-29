@@ -73,9 +73,42 @@ Já quanto não temos dados na camada bronze ou o dataset foi atualizao no kaggl
 ![Mostrando ingestão](auxiliares/mostrando_ingestao.png)
 ![Run succeeded](auxiliares/job_sucesso.png)
 
+## 6.0  SQL Warehouse
+
+Como criei as tabelas delta, usei a Dashboard do Databricks. Observação: Vale lembrar que facilmente poderíamos ter feito os gráficos em python e exportado para um arquivo .pdf. Poderímaos criar uma nova camada além da gold, que faria os plots e exportaria para o .pdf, compondo um relatório. 
 
 
+> Total sales by payment type
+```sql
+SELECT 
+*
+FROM olist.total_sales_by_payment_type
+ORDER BY total_sales DESC
 
+> Delivery date analyses
+```sql
+SELECT
+delivery_time_diff AS `Desvio de dias na entrega`,
+percentage AS `% de Compras`
+FROM olist.delivery_date_analyses
 
+> Total sales by payment type
+```sql
+SELECT 
+*
+FROM olist.total_sales_by_payment_type
+ORDER BY total_sales DESC
 
+> Total sales by payment type
+```sql
+SELECT 
+*
+FROM olist.total_sales_by_payment_type
+ORDER BY total_sales DESC
 
+> Total sales by payment type
+```sql
+SELECT 
+*
+FROM olist.total_sales_by_payment_type
+ORDER BY total_sales DESC
