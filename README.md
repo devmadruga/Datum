@@ -53,7 +53,7 @@ Antes de implementar a camada gold, defini 5 informações que eu gostaria de ob
 
 Então, com os objetivos definidos, os notebooks da camada gold seguem a lógica:
 
-importamos os dados da camada silver -> fazemos os tratamentos necessários (valores nulos ou vazios, adicioarmos colunas calculadas, agregações, somas, counts, joins e etc) -> exportamos os dados pertinentes no formato delta para a camada gold -> criamos uma DELTA TABLE com os dados pertinentes
+> importamos os dados da camada silver -> fazemos os tratamentos necessários (valores nulos ou vazios, adicioarmos colunas calculadas, agregações, somas, counts, joins e etc) -> exportamos os dados pertinentes no formato delta para a camada gold -> criamos uma DELTA TABLE com os dados pertinentes
 
 Um objetivo aqui na camada gold é o de entregar o dado mais pronto possível para análise, para que não tenhamos tratamentos de dados em ferramentas de BI ou mesmo aqui no databricks dentro das sql queries do sql warehouse.
 
