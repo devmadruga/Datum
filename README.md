@@ -59,9 +59,9 @@ Um objetivo aqui na camada gold é o de entregar o dado mais pronto possível pa
 
 Por fim, vocês encontrarão nos .ipynb da camada gold, um pouco mais de tratamento de dados e manipulação dos dados. Porém, ainda são tratamentos de um dataset do kaggle. "A realidade lá fora é bastante mais dura do que no kaggle." :grin:
 
+## 5.0 Workflows - Job
 
-
-
+O job retorna erro no [KaggleAutenticacao_IngestaoDados.ipynb](./bronze/KaggleAutenticacao_IngestaoDados.ipynb) quando já tivermos os arquivos .csv no dbfs **E** estivermos com o dataset atualizado em relação ao kaggle.
 
 
 
