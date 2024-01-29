@@ -82,42 +82,47 @@ Aqui, as queries são bastante simples, devido ao trabalho feito na gold:
 ![Queries](auxiliares/queries.png)
 
 
-> Total sales by payment type
+Total sales by payment type
+
 ```sql
 SELECT 
 *
 FROM olist.total_sales_by_payment_type
 ORDER BY total_sales DESC;
+```
 
+Delivery date analyses
 
-> Delivery date analyses
 ```sql
 SELECT
 delivery_time_diff AS `Desvio de dias na entrega`,
 percentage AS `% de Compras`
 FROM olist.delivery_date_analyses;
+```
 
+Total sales by state
 
-> Total sales by state
 ```sql
 SELECT *
 FROM olist.total_sales_by_state
 ORDER BY `total_R$`;
+```
 
+Total sales by month by day
 
-> Total sales by month by day
 ```sql
 SELECT *
 FROM olist.total_sales_by_month_by_day
 ORDER BY total_sales DESC;
+```
 
+Most common product pair
 
-> Most common product pair
 ```sql
 SELECT *
 FROM olist.most_common_product_pair
 ORDER BY freq DESC;
-
+```
 
 
 
