@@ -124,11 +124,4 @@ FROM olist.most_common_product_pair
 ORDER BY freq DESC;
 ```
 
-
-
-
-
-
-
-
-
+Depois de ter configurado as visualizações, embora elas sejam bastante limitadas no Dashboards do Databricks, [ESTE](.auxiliares/DashboardsDatabricks.pdf). "Observação: O export em .pdf não fica nada bom. Eu fiz um vídeo mostrando o projeto no meu ambiente do Databricks. Enviei o vídeo por email para a Jackeline, mas [AQUI ESTÁ O LINK PARA O VÍDEO](https://drive.google.com/file/d/1iamKGzTbAsGNe4pQZNRBzzxJa7vH1qWi/view?usp=sharing).
