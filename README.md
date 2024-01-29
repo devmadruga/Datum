@@ -77,6 +77,10 @@ Já quanto não temos dados na camada bronze ou o dataset foi atualizao no kaggl
 
 Como criei as tabelas delta, usei a Dashboard do Databricks. Observação: Vale lembrar que facilmente poderíamos ter feito os gráficos em python e exportado para um arquivo .pdf. Poderímaos criar uma nova camada além da gold, que faria os plots e exportaria para o .pdf, compondo um relatório. 
 
+Aqui, as queries são bastante simples, devido ao trabalho feito na gold:
+
+![Queries](auxiliares/queries.png)
+
 
 > Total sales by payment type
 ```sql
@@ -84,6 +88,7 @@ SELECT
 *
 FROM olist.total_sales_by_payment_type
 ORDER BY total_sales DESC
+```
 
 > Delivery date analyses
 ```sql
@@ -91,24 +96,34 @@ SELECT
 delivery_time_diff AS `Desvio de dias na entrega`,
 percentage AS `% de Compras`
 FROM olist.delivery_date_analyses
+```
 
-> Total sales by payment type
+> Total sales by state
 ```sql
-SELECT 
-*
-FROM olist.total_sales_by_payment_type
-ORDER BY total_sales DESC
+SELECT *
+FROM olist.total_sales_by_state
+ORDER BY `total_R$`
+```
 
-> Total sales by payment type
+> Total sales by month by day
 ```sql
-SELECT 
-*
-FROM olist.total_sales_by_payment_type
+SELECT *
+FROM olist.total_sales_by_month_by_day
 ORDER BY total_sales DESC
+```
 
-> Total sales by payment type
+> Most common product pair
 ```sql
-SELECT 
-*
-FROM olist.total_sales_by_payment_type
-ORDER BY total_sales DESC
+SELECT *
+FROM olist.most_common_product_pair
+ORDER BY freq DESC
+```
+
+
+
+
+
+
+
+
+
