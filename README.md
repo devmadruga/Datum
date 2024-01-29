@@ -1,6 +1,6 @@
 # Datum
 
-Olá Datum. Tudo bem com vocês? Por aqui, tudo bem! :blush:
+Olá 👋 Datum. Tudo bem com vocês? Por aqui, tudo bem! :blush:
 
 Neste repositório vocês encontrarão informações a respeito do meu teste técnico para a vaga de Desenvolvedor Python (job description compatível com Engenheiro de Dados).
 
@@ -127,3 +127,9 @@ ORDER BY freq DESC;
 Depois de ter configurado as visualizações, embora elas sejam bastante limitadas no Dashboards do Databricks, o .pdf exportado pode ser visto [AQUI](auxiliares/DashboardsDatabricks.pdf). Vale a nota de que, enquanto o gráfico de bolhas (3 colunas) faz sentido, aqui no arquivo exportado não faz. :disappointed_relieved:
 
 `Observação:` O export em .pdf não fica nada bom. Eu fiz um vídeo mostrando o projeto no meu ambiente do Databricks. Enviei o vídeo por email para a Jackeline, mas [AQUI ESTÁ O LINK PARA O VÍDEO](https://drive.google.com/file/d/1iamKGzTbAsGNe4pQZNRBzzxJa7vH1qWi/view?usp=sharing).
+
+7.0 Considerações Finais
+
+Obrigado pela oportunidade e se tiverem qualquer dúvida, estou disponível para conversarmos. 
+
+:punch:
