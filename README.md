@@ -68,10 +68,10 @@ O job retorna erro no [KaggleAutenticacao_IngestaoDados.ipynb](./bronze/KaggleAu
 ![Exception](auxiliares/exception.png)
 ![Exception e Print](auxiliares/exception_print.png)
 
-Já quanto não temos dados na camada bronze ou o dataset foi atualizao no kaggle, o job tem que rodar por completo. Vou apagar os dados da bronze com "%fs rm -r path" e rodar o job. Percebam o output no final do [KaggleAutenticacao_IngestaoDados.ipynb](./bronze/KaggleAutenticacao_IngestaoDados.ipynb):
+Já quanto não temos dados na camada bronze ou o dataset foi atualizao no kaggle, o job tem que rodar por completo. Vou apagar os dados da bronze com "%fs rm -r path" e rodar o job. Percebam o output no final do [KaggleAutenticacao_IngestaoDados.ipynb](./bronze/KaggleAutenticacao_IngestaoDados.ipynb) que indica que o motivo do download é pela camada bronze não existir no dbfs:
 
 ![Mostrando ingestão](auxiliares/mostrando_ingestao.png)
-![Run succeeded](auxiliares/job_suceso.png)
+![Run succeeded](auxiliares/job_sucesso.png)
 
 
 
